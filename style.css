@@ -8,9 +8,6 @@ body {
 }
 
 /*solve this padding for all*/
-.all-content {
-    padding-left: 100px;
-}
 
 .header {
     display: flex;
