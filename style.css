@@ -1,3 +1,5 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap'); */
+
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
@@ -12,9 +14,47 @@ body {
 .header {
     display: flex;
     background-color: #1F2937;
+    padding: 10px 150px;
+    align-items: center;
+    gap: 15px;
 }
 
 .logo {
     font-size: 24px;
     color: #F9FAF8;
+    margin-right: auto;
 }
+
+.link {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.mid-sec1 {
+    display: flex;
+    background-color: #1F2937;
+    padding: 60px 150px;
+}
+
+.sec1-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.s1tt {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.s1tm {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.s1tb {
+    background-color: #3882F6;
+    color: #E5E7EB;;
+    align-self: flex-start;
+}
+
